@@ -1,0 +1,28 @@
+.navbar {
+	background-color: #b13434;
+	height: 80px;
+
+	& .wrap {
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		& h1 {
+			font-size: 2rem;
+			color: white;
+		}
+
+		& span {
+			color: white;
+
+			& a {
+				margin-left: 1rem;
+
+				&:hover {
+					color: #1a1a1a;
+				}
+			}
+		}
+	}
+}
